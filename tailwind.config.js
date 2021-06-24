@@ -8,4 +8,9 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  theme: {
+    fontFamily: {
+      raleway: ['Raleway', 'sans-serif']
+    }
+  }
 }
