@@ -4,13 +4,18 @@
 
 
 body {
+    background: transparent;
+    border: 0;
     margin: 0;
-    font-size: 20px;
+    padding: 0;
+    vertical-align: baseline;
+    outline: 0;
+    font-size: 13px;
     line-height: 1.7;
-    font-weight: 400;
-    background: rgb(73, 206, 91);
-    color: #353535;
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', 'Fira Sans', Avenir, 'Helvetica Neue',
-    'Lucida Grande', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Raleway',sans-serif;
     text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
