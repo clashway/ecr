@@ -7,7 +7,9 @@ class MyDocument extends Document {
                 <Head />
                 <Nav />
                 <body>
-                    <Main />
+                    <div className="container mx-12 pt-8">
+                        <Main />
+                    </div>
                     <NextScript />
                 </body>
             </Html>
