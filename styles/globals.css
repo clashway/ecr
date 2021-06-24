@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.7;
+    font-weight: 400;
+    background: rgb(134, 216, 145);
+    color: #353535;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', 'Fira Sans', Avenir, 'Helvetica Neue',
+    'Lucida Grande', sans-serif;
+    text-rendering: optimizeLegibility;
+}

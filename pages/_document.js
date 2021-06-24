@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import Nav from '../components/Nav';
+import Layout from '../components/Layout';
 class MyDocument extends Document {
     render() {
         return (
@@ -7,9 +8,9 @@ class MyDocument extends Document {
                 <Head />
                 <Nav />
                 <body>
-                    <div className="container mx-12 pt-8">
+                    <Layout>
                         <Main />
-                    </div>
+                    </Layout>
                     <NextScript />
                 </body>
             </Html>
