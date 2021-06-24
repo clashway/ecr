@@ -12,7 +12,7 @@ const Header = () => {
                     layout="fixed"
                     alt="logo" />
             </div>
-            <div className="navigation pt-6 uppercase">
+            <div className="navigation pt-6 uppercase font-semibold text-sm">
                 <Nav />
             </div>
         </header>

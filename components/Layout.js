@@ -2,7 +2,7 @@ import Header from './Header';
 
 const Layout = props => {
   return (
-    <div className="container main-container px-24 font-raleway text-base">
+    <div className="container main-container px-24 font-raleway font-base">
       <div className="header">
         <Header />
       </div>
