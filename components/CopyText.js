@@ -1,9 +1,9 @@
 
-const CopyText = ( props ) => {
+const CopyText = ( {className, children} ) => {
     return ( 
         <>
-            <div className="copytext">
-                { props.children }
+            <div className={`${className} copytext`}>
+                {children}
             </div>
             <style jsx>{`
                 .copytext :global(p) {
