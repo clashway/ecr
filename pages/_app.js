@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import Head from 'next/head';
+import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps }) {
 
@@ -11,7 +12,9 @@ function MyApp({ Component, pageProps }) {
         <link href="//fonts.googleapis.com/css?family=Raleway:100,200,300,400,600,700,800,400italic" rel="stylesheet" type="text/css"></link>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       </Head>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }

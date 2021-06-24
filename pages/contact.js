@@ -1,13 +1,13 @@
 import Head from 'next/head';
 
-export default function MarioGolf() {
+export default function Contact() {
     return (
         <div>
             <Head>
-                <title>Mario Golf</title>
+                <title>Contact</title>
             </Head>
             
-            mario golf things
+            Contact
         </div>
     )
 }

@@ -1,13 +1,13 @@
 import Head from 'next/head';
 
-export default function Home() {
+export default function Writing() {
     return (
         <div>
             <Head>
-                <title>Home</title>
+                <title>Writing</title>
             </Head>
             
-            Homepage
+            Writing
         </div>
     )
 }
