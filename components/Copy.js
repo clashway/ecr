@@ -1,24 +1,20 @@
-import React from 'react';
-import css from 'styled-jsx/css';
-
-const { copyClasses, styles } = css.resolve`
-            p {
-                margin-bottom: 10px;
-            }
-            a {
-                color: #bf064a;
-                text-decoration: none;
-                cursor: pointer;
-            }
-`;
 
 const Copy = ( props ) => {
     return ( 
         <>
-            <div className={copyClasses}>
+            <div className="copy">
                 { props.children }
             </div>
-            { styles }
+            <style jsx>{`
+                .copy :global(p) {
+                    margin-bottom: 10px;
+                }
+                .copy :global(a) {
+                    color: #bf064a;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+            `}</style>
         </>
     );
 }
