@@ -1,15 +1,15 @@
 
-const Copy = ( props ) => {
+const CopyText = ( props ) => {
     return ( 
         <>
-            <div className="copy">
+            <div className="copytext">
                 { props.children }
             </div>
             <style jsx>{`
-                .copy :global(p) {
+                .copytext :global(p) {
                     margin-bottom: 10px;
                 }
-                .copy :global(a) {
+                .copytext :global(a) {
                     color: #bf064a;
                     text-decoration: none;
                     cursor: pointer;
@@ -19,4 +19,4 @@ const Copy = ( props ) => {
     );
 }
  
-export default Copy;
+export default CopyText;
