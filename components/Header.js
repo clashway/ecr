@@ -10,7 +10,9 @@ const Header = () => {
                     height="66"
                     width="350"
                     layout="fixed"
-                    alt="logo" />
+                    alt="logo"
+                />
+                
             </div>
             <div className="navigation pt-6 uppercase font-semibold text-sm">
                 <Nav />
