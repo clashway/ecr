@@ -6,7 +6,7 @@ const Header = () => {
         <header className="flex flex-row justify-between">
             <div className="logo pr-10">
                 <Image 
-                    src="/jenna_logo2.png"
+                    src="/ecr_logo.png"
                     height="66"
                     width="350"
                     layout="fixed"
