@@ -1,13 +1,15 @@
 import Header from './Header';
 import Footer from './Footer';
+import Banner from './Banner';
 
 const Layout = props => {
   return (
     <div className="flex flex-col h-screen font-raleway font-base">
-      <div className="header w-full max-w-screen-2xl m-auto pl-8 xl:pl-0">
+      <div className="header">
         <Header />
       </div>
-      <main className="flex-grow main-content pt-8 px-8 max-w-screen-2xl m-auto">
+      <Banner title="Contact" />
+      <main className="main-content">
         {props.children}
       </main>
       <div className="footer">

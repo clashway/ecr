@@ -16,7 +16,7 @@ export default function About() {
                 <p>Through my <a href="https://www.jennahelwig.com/books/" rel="noopener">books</a>, <a href="https://www.jennahelwig.com/blog/" rel="noopener">blog</a>, magazine writing, and video I’m excited to continue helping families eat healthfully, happily, and deliciously.</p>
             </CopyText>
 
-            <div className="max-w-lg">
+            <div className="max-w-lg m-auto lg:m-0">
                 <Image 
                     src="/ecr.jpg"
                     width="500"

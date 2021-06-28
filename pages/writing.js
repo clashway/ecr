@@ -7,7 +7,7 @@ export default function Writing() {
             <Head>
                 <title>Writing</title>
             </Head>
-            
+
             <CopyText>
                 <p>
                     Enim reprehenderit aliquip exercitation do amet duis exercitation ipsum sint adipisicing sunt excepteur non adipisicing. Do nostrud deserunt eu aliquip labore cillum Lorem velit tempor fugiat commodo eiusmod minim. Incididunt nisi ipsum voluptate consectetur cupidatat minim id Lorem sit magna non quis consectetur. Incididunt nisi ea fugiat labore irure. Labore adipisicing id non adipisicing ipsum est enim.
